@@ -1,0 +1,144 @@
+body {
+    background-color: white;
+}
+
+.logo {
+    width: 20%;
+    border: 1px;
+    border-radius: 50%;
+}
+
+.nav-icon {
+    font-size: 20px;
+    color: white;
+}
+
+/*.background-carousel {
+    background-size: auto;
+    height: 80vh;
+    background-repeat: repeat;
+    width: 100%;
+}*/
+
+.salutation {
+    font-family: Milasian CirEa;
+}
+
+.proverbe {
+    font-family: Milasian CirEa;
+    font-size: 18px;
+}
+
+.carousel-inner {
+    width: 100%;
+    height: 400px;
+    top: 20px;
+}
+
+.carousel-logo {
+    font-size: 40px;
+}
+
+.carousel-custom {
+    max-width: 80%;
+    margin: auto;
+    border: 0px;
+    border-radius: 20%;
+    overflow: hidden;
+    border: solid 0px rgb(47, 157, 247);
+    border-radius: 8px 8px;
+}
+
+.carousel-container {
+    background-image: url("background-carousel.jpeg");
+    width: 90%;
+}
+
+.card {
+    border-radius: 10px;
+    /* Arrondir les coins des cartes */
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Ajouter une ombre douce */
+}
+
+.card-img-top {
+    height: 200px;
+    /* Ajuster la hauteur de l'image */
+    object-fit: cover;
+    /* Garder les proportions de l'image */
+    border: solid 0px;
+    border-radius: 0px 0px 0px 20px;
+}
+
+.badge {
+    position: absolute;
+}
+
+.badge {
+    font-size: 7px;
+}
+
+.menu {
+    font-family: Milasian CirEa;
+    font-size: 40px;
+}
+
+.bi-cart-plus {
+    font-size: 25px;
+}
+
+.prix {
+    font-size: 20px;
+}
+
+.Meilleur-prix {
+    font-family: Milasian CirEa;
+}
+
+.article-contact {
+    font-size: 24px;
+}
+
+.background-contact {
+    background-image: url('fond_contact.png');
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: 100%;
+    background-repeat: space;
+}
+
+.icon-contact-contact {
+    font-size: 80px;
+}
+
+.icon-perso-contact {
+    font-size: 20px;
+}
+
+.banque {
+    font-size: 20px;
+}
+
+.background-service {
+    background-image: url('partenaire.png');
+    background-repeat: space;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.check-circle {
+    font-size: 50px;
+}
+
+.bi-tablet {
+    font-size: 60px;
+}
+
+.bi-tablet-fill {
+    font-size: 60px;
+}
+
+.img-orange {
+    object-fit: cover;
+}

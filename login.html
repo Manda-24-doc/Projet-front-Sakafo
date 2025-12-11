@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap-icon/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container py-5">
+        <div class="row featurette align-items-center gx-0">
+            <div class="col-md-6">
+                <div class="mb-3 justify-content-center d-flex">
+                    <img src="logo.png" alt="logo" class="mx-auto border rounded-circle border-1 border-light w-50">
+                </div>
+                <h4
+                    class="display-6 fw-bold list-group-horizontal-lg text-body-emphasis mb-3 text-primary d-flex justify-content-center">
+                    Se connecter</h4>
+                <p class="col-lg-10 fs-5 text-white">Si vous êtes connecté, vous pourrez passer des commandes et suivre
+                    vos achats en toute sécurité. Entrez votre adresse e-mail et votre mot de passe pour vous connecter.
+                </p>
+                <p class="col-lg-10 fs-5 text-white">Vous n'avez pas de compte ? <a href="sign-up.html"
+                        class="fs-6 text-primary text-decoration-none">Veuillez cliquez sur ce lien</a></p>
+            </div>
+            <div class="col-md-6">
+                <div class="card w-75 mx-auto shadow border rounded-5 my-5">
+                    <div class="p-4">
+                        <form action="" class="p-3">
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control rounded-3" id="floatingInput"
+                                    placeholder="name@example.com">
+                                <label for="floatingInput">Adress email</label>
+                            </div>
+                            <div class="form-floating mb-2">
+                                <input type="password" class="form-control rounded-3" id="floatingPassword"
+                                    placeholder="Password">
+                                <label for="floatingPassword">Mot de passe</label>
+                            </div>
+                            <div class="form-check mb-1">
+                                <input type="checkbox" class="form-check-input" id="same-address">
+                                <label class="form-check-label" for="same-address">Souviens moi</label>
+                            </div>
+                            <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Se
+                                connecter</button>
+
+                            <hr class="">
+
+                            <small class="text-body-secondary">Connexion par d'autre option.</small>
+                            <button class="w-100 py-2 mt-2 mb-2 btn btn-outline-secondary rounded-3" type="submit">
+                                <svg class="bi me-1" width="16" height="16">
+                                    <use xlink:href="#twitter" />
+                                </svg>
+                                <span class="bi bi-twitter me-1"></span>Sign up with Twitter
+                            </button>
+                            <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3" type="submit">
+                                <svg class="bi me-1" width="16" height="16">
+                                    <use xlink:href="#facebook" />
+                                </svg>
+                                <span class="bi bi-facebook me-1"></span>Sign up with Facebook
+                            </button>
+                            <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="submit">
+                                <svg class="bi me-1" width="16" height="16">
+                                    <use xlink:href="#google" />
+                                </svg>
+                                <span class="bi bi-google me-1"></span>Sign up with Google
+                            </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
